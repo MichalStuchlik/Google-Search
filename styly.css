@@ -1,0 +1,23 @@
+
+body {
+  background: #35363A;
+  margin: 0;
+}
+
+
+.style input[type=text] { 
+    padding: 9px 20px;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: 300;
+    margin-top: 200px;
+    width: 30%;
+}
+
+.showcase { 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
