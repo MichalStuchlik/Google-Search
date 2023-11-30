@@ -4,20 +4,30 @@ body {
   margin: 0;
 }
 
+body {
 
+}
 .style input[type=text] { 
     padding: 9px 20px;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: white;
     font-weight: 300;
-    margin-top: 200px;
-    width: 30%;
+    margin-top: 0px;
+    width: 400px;
 }
 
 .showcase { 
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.google {
+  margin-top: 150px;
+  color: white;
+}
+
+.btn {
+  width: 20px;
 }
