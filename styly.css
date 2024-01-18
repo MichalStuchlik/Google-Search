@@ -6,14 +6,18 @@ body {
 
 body {
 
+
 }
 .style input[type=text] { 
     padding: 9px 20px;
     border-radius: 50px;
     background-color: white;
     font-weight: 300;
-    margin-top: 0px;
+    margin-top: 10px;
     width: 400px;
+}
+.style img {
+  margin-top: 10px;
 }
 
 .showcase { 
@@ -30,4 +34,37 @@ body {
 
 .btn {
   width: 20px;
+}
+.bt {
+  width: 20px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0rem;
+  margin-bottom: 5rem;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+}
+#navbar a:hover{
+  background-color: black;
+  border-radius: 15%;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+#buttons {
+  margin: auto;
+  height: 70px;
+  padding-top: 18px;
+  text-align: center;
 }
